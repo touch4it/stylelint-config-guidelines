@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "license": "MIT",
   "engines": {
@@ -75,14 +75,14 @@
     "space": true
   },
   "dependencies": {
-    "stylelint": "^9.5.0",
+    "stylelint": "^10.0.1",
     "stylelint-at-rule-no-children": "^0.3.1",
-    "stylelint-config-sass-guidelines": "^5.2.0",
-    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
-    "stylelint-no-unsupported-browser-features": "^3.0.1",
+    "stylelint-config-sass-guidelines": "^6.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+    "stylelint-no-unsupported-browser-features": "^3.0.2",
     "stylelint-selector-tag-no-without-class": "^2.0.0"
   },
   "devDependencies": {
-    "xo": "^0.23.0"
+    "xo": "^0.24.0"
   }
 }
