@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "license": "MIT",
   "engines": {
@@ -75,7 +75,7 @@
     "space": true
   },
   "dependencies": {
-    "stylelint": "^10.0.1",
+    "stylelint": "^10.1.0",
     "stylelint-at-rule-no-children": "^0.3.1",
     "stylelint-config-sass-guidelines": "^6.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
