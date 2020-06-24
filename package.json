@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
@@ -15,14 +15,6 @@
   },
   "homepage": "https://github.com/touch4it/stylelint-config-guidelines#readme",
   "author": "Touch4IT, s.r.o. <hi@touch4it.com> (https://touch4it.com/)",
-  "main": "lib/",
-  "scripts": {
-    "lint": "xo lib/",
-    "release:major": "npm test && npm version major -m \"Released version %s\" && npm publish && git push --follow-tags",
-    "release:minor": "npm test && npm version minor -m \"Released version %s\" && npm publish && git push --follow-tags",
-    "release:patch": "npm test && npm version patch -m \"Released version %s\" && npm publish && git push --follow-tags",
-    "test": "npm run lint"
-  },
   "contributors": [
     "Viktor Šulák <sulak@touch4it.com>",
     "Tibor Hanesz <tibor.hanesz@touch4it.com>",
@@ -38,53 +30,24 @@
     "touch4it",
     "SMACSS"
   ],
-  "xo": {
-    "envs": [
-      "node",
-      "mocha"
-    ],
-    "esnext": true,
-    "globals": [
-      "sails",
-      "async",
-      "_"
-    ],
-    "rules": {
-      "camelcase": "off",
-      "no-multi-spaces": [
-        "error",
-        {
-          "ignoreEOLComments": true
-        }
-      ],
-      "spaced-comment": [
-        "error",
-        "always",
-        {
-          "block": {
-            "exceptions": [
-              "*"
-            ],
-            "markers": [
-              "!"
-            ]
-          }
-        }
-      ],
-      "unicorn/explicit-length-check": "off",
-      "unicorn/filename-case": "off"
-    },
-    "space": true
+  "main": "lib/",
+  "scripts": {
+    "format-package": "npx format-package -w",
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
+  "maintainers": [
+    "Viktor Šulák <sulak@touch4it.com>"
+  ],
   "dependencies": {
-    "stylelint": "^12.0.0",
+    "stylelint": "^13.6.1",
     "stylelint-at-rule-no-children": "^0.3.1",
-    "stylelint-config-sass-guidelines": "^6.2.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.2.0",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-no-unsupported-browser-features": "^4.0.0",
-    "stylelint-selector-tag-no-without-class": "^2.0.2"
+    "stylelint-selector-tag-no-without-class": "^2.0.3"
   },
   "devDependencies": {
-    "xo": "^0.25.3"
+    "eslint": "^7.3.1"
   }
 }
