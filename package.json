@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
@@ -48,6 +48,6 @@
     "stylelint-selector-tag-no-without-class": "^2.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.3.1"
+    "eslint": "^7.4.0"
   }
 }
