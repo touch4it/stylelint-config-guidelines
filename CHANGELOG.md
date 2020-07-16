@@ -1,5 +1,9 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 1.4.1
+
+-   Updated dependencies
+
 ## 1.4.0
 
 -   Replaced xo lint with eslint
