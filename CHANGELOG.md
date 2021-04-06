@@ -1,5 +1,9 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 1.5.0
+
+-   Updated dependencies
+
 ## 1.4.1
 
 -   Updated dependencies
