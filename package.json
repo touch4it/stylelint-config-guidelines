@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
@@ -44,10 +44,10 @@
     "stylelint-at-rule-no-children": "^0.3.1",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-no-unsupported-browser-features": "^4.1.4",
+    "stylelint-no-unsupported-browser-features": "^5.0.1",
     "stylelint-selector-tag-no-without-class": "^2.0.4"
   },
   "devDependencies": {
-    "eslint": "^7.26.0"
+    "eslint": "^7.27.0"
   }
 }
