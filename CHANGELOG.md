@@ -1,5 +1,9 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 2.0.1
+
+-   Refactored `stylelint` to be peer dependency
+
 ## 2.0.0
 
 -   Refactored `stylelint` to be peer dependency
