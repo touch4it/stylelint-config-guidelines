@@ -1,10 +1,11 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "2.0.1",
+  "version": "3.0.0-dev.1",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
-    "node": ">=6"
+    "node": ">= 10",
+    "npm": ">= 7"
   },
   "repository": {
     "type": "git",
@@ -40,16 +41,17 @@
     "Viktor Šulák <sulak@touch4it.com>"
   ],
   "dependencies": {
+    "stylelint": "^14.12.1",
     "stylelint-at-rule-no-children": "^0.3.1",
-    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-no-unsupported-browser-features": "^5.0.1",
     "stylelint-selector-tag-no-without-class": "^2.0.4"
   },
   "devDependencies": {
-    "eslint": "^7.28.0"
+    "eslint": "^8.24.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.12.1"
   }
 }
