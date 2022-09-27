@@ -1,11 +1,11 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "3.0.0-dev.1",
+  "version": "3.0.0",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
     "node": ">= 10",
-    "npm": ">= 7"
+    "npm": ">= 6"
   },
   "repository": {
     "type": "git",
