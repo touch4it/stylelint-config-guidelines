@@ -41,7 +41,7 @@
     "Viktor Šulák <sulak@touch4it.com>"
   ],
   "dependencies": {
-    "stylelint": "^14.12.1",
+    "stylelint": "^16.1.0",
     "stylelint-at-rule-no-children": "^0.3.1",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
