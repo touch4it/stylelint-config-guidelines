@@ -41,11 +41,11 @@
     "Viktor Šulák <sulak@touch4it.com>"
   ],
   "dependencies": {
-    "stylelint": "^14.12.1",
+    "stylelint": "^16.6.1",
     "stylelint-at-rule-no-children": "^0.3.1",
-    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1",
+    "stylelint-no-unsupported-browser-features": "^8.0.0",
     "stylelint-selector-tag-no-without-class": "^2.0.4"
   },
   "devDependencies": {
