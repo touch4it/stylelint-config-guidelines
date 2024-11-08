@@ -45,7 +45,7 @@
     "stylelint-at-rule-no-children": "^0.3.1",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1",
+    "stylelint-no-unsupported-browser-features": "^8.0.2",
     "stylelint-selector-tag-no-without-class": "^2.0.4"
   },
   "devDependencies": {
