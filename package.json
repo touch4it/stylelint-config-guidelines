@@ -1,11 +1,11 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
-    "node": ">= 10",
-    "npm": ">= 6"
+    "node": ">= 18",
+    "npm": ">= 10"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "contributors": [
     "Viktor Šulák <sulak@touch4it.com>",
     "Tibor Hanesz <tibor.hanesz@touch4it.com>",
-    "Dušan Matejka <dusan.matejka@touch4it.com>"
+    "Dušan Matejka <dusan.matejka@touch4it.com>",
+    "Roman Páleník <roman.palenik@touch4it.com>"
   ],
   "keywords": [
     "stylelint",
@@ -41,17 +42,17 @@
     "Viktor Šulák <sulak@touch4it.com>"
   ],
   "dependencies": {
-    "stylelint": "^14.12.1",
-    "stylelint-at-rule-no-children": "^0.3.1",
-    "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1",
-    "stylelint-selector-tag-no-without-class": "^2.0.4"
+    "stylelint-at-rule-no-children": "0.3.1",
+    "stylelint-config-sass-guidelines": "12.1.0",
+    "stylelint-declaration-block-no-ignored-properties": "2.8.0",
+    "stylelint-no-unsupported-browser-features": "8.0.4",
+    "stylelint-selector-tag-no-without-class": "3.0.1",
+    "stylelint-order": "6.0.4"
   },
   "devDependencies": {
     "eslint": "^8.24.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.12.1"
+    "stylelint": ">=16.0.0"
   }
 }
