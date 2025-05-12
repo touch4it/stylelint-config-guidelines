@@ -1,5 +1,12 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 4.0.0
+
+- Updated dependencies
+- Updated to use `stylelint@16`
+- Migrated dependencies and rules for stylelint@16 support
+- **Breaking:** Stylelint as a peer dependency
+
 ## 3.0.0
 
 - Updated dependencies
