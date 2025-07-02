@@ -40,6 +40,10 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 }
 ```
 
+## Migration from Version 3 to 4
+
+Important: When migrating from version 3 to version 4, please note that Stylelint v15+ no longer includes formatting rules. If you need code formatting, you'll need to use Prettier alongside Stylelint.
+
 ## License
 
 [MIT](LICENSE)
