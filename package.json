@@ -14,6 +14,9 @@
   "bugs": {
     "url": "https://github.com/touch4it/stylelint-config-guidelines/issues"
   },
+  "files": [
+    "lib/"
+  ],
   "homepage": "https://github.com/touch4it/stylelint-config-guidelines#readme",
   "author": "Touch4IT, s.r.o. <hi@touch4it.com> (https://touch4it.com/)",
   "contributors": [
@@ -42,12 +45,14 @@
     "Viktor Šulák <sulak@touch4it.com>"
   ],
   "dependencies": {
+    "@stylistic/stylelint-config": "2.0.0",
     "stylelint-at-rule-no-children": "0.4.1",
     "stylelint-config-sass-guidelines": "12.1.0",
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
     "stylelint-no-unsupported-browser-features": "8.0.4",
-    "stylelint-selector-tag-no-without-class": "3.0.1",
-    "stylelint-order": "7.0.0"
+    "stylelint-order": "7.0.0",
+    "stylelint-prettier": "5.0.3",
+    "stylelint-selector-tag-no-without-class": "3.0.1"
   },
   "devDependencies": {
     "eslint": "^8.24.0"
