@@ -1,17 +1,11 @@
 # stylelint-config-guidelines
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/touch4it/ical-timezones/blob/master/lib/LICENSE.md)
-[![npm version](https://img.shields.io/npm/v/@touch4it/stylelint-config-guidelines)](https://www.npmjs.com/package/@touch4it/stylelint-config-guidelines)
-[![node version](https://img.shields.io/node/v/@touch4it/stylelint-config-guidelines)](https://www.npmjs.com/package/@touch4it/stylelint-config-guidelines)
-[![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@touch4it/stylelint-config-guidelines)](https://www.npmjs.com/package/@touch4it/stylelint-config-guidelines)
-[![last commit](https://img.shields.io/github/last-commit/touch4it/stylelint-config-guidelines)](https://github.com/touch4it/stylelint-config-guidelines)
-
 Stylelint configuration inspired by SMACSS
 
 ## Installation
 
 ```console
-$ npm install --save @touch4it/stylelint-config-guidelines
+npm install --save @touch4it/stylelint-config-guidelines
 ```
 
 ## Usage
@@ -40,9 +34,17 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 }
 ```
 
-## Migration from Version 3 to 4
+## Migration from Version 4 to 5
 
-Important: When migrating from version 3 to version 4, please note that Stylelint v15+ no longer includes formatting rules. If you need code formatting, you'll need to use Prettier alongside Stylelint.
+Important: When migrating from version 4 to version 5, please note that Stylelint v15+ no longer includes formatting rules. If you need code formatting, you'll need to use Prettier alongside Stylelint.
+
+## Compatibility table
+
+| @touch4it/stylelint-config-guidelines | Stylelint | Prettier |
+| ------------------------------------- | --------- | -------- |
+| v5.x                                  | 16.x      | 3.x      |
+| v4.x                                  | 16.x      | -        |
+| v3.x                                  | 14.x      | -        |
 
 ## License
 
