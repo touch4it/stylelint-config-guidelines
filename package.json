@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/stylelint-config-guidelines",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Stylelint configuration inspired by SMACSS",
   "license": "MIT",
   "engines": {
@@ -59,6 +59,7 @@
     "eslint": "^8.24.0"
   },
   "peerDependencies": {
+    "prettier": "^3.0.0",
     "stylelint": "^17.6.0"
   }
 }
