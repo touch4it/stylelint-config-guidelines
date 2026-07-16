@@ -38,13 +38,15 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 
 Important: When migrating from version 4 to version 5, please note that Stylelint v15+ no longer includes formatting rules. If you need code formatting, you'll need to use Prettier alongside Stylelint.
 
+Version 5 also requires `stylelint@17+` and Node.js `>= 22.12`. Upgrade both before installing this version.
+
 ## Compatibility table
 
-| @touch4it/stylelint-config-guidelines | Stylelint | Prettier |
-| ------------------------------------- | --------- | -------- |
-| v5.x                                  | 16.x      | 3.x      |
-| v4.x                                  | 16.x      | -        |
-| v3.x                                  | 14.x      | -        |
+| @touch4it/stylelint-config-guidelines | Stylelint | Prettier | Node.js  |
+| ------------------------------------- | --------- | -------- | -------- |
+| v5.x                                  | 17.x      | 3.x      | >= 22.12 |
+| v4.x                                  | 16.x      | -        | >= 20.19 |
+| v3.x                                  | 14.x      | -        | -        |
 
 ## License
 
