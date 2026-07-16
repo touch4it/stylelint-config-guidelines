@@ -1,5 +1,11 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 5.0.0
+
+- Disable all stylistic rule
+- Turn off comment-empty-line-before
+- Add prettier plugin
+
 ## 4.0.0
 
 - Updated dependencies
