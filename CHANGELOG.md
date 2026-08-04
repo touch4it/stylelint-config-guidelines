@@ -1,5 +1,11 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 6.0.0
+
+- Updated dependencies (`@stylistic/stylelint-config@5`, `stylelint-config-sass-guidelines@13`, `stylelint-declaration-block-no-ignored-properties@3`, `stylelint-order@8`, `stylelint-selector-tag-no-without-class@4`, `stylelint-at-rule-no-children@0.5`, `stylelint-no-unsupported-browser-features@8.1`)
+- **Breaking:** Requires `stylelint@17+` as peer dependency
+- **Breaking:** Requires Node.js `>= 22.12`
+
 ## 5.0.0
 
 - Disable all stylistic rule

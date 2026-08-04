@@ -2,12 +2,16 @@
   "env": {
     "node": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
   "extends": [
     "eslint:recommended"
   ],
   "rules": {
     "indent": ["error", 2],
     "quotes": ["error", "single"],
-    "array-element-newline": ["error", "always"]
+    "array-element-newline": ["error", "always"],
+    "array-bracket-newline": ["error", "always"]
   }
 }
