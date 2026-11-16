@@ -1,5 +1,10 @@
 # Stylelint configuration guidelines by Touch4IT
 
+## 6.1.0
+
+- Enable `reportNeedlessDisables`: unnecessary `stylelint-disable` comments are now reported as errors
+- Updated dependencies (`stylelint-declaration-block-no-ignored-properties@3.1`, `stylelint-no-unsupported-browser-features@8.1.2`, `stylelint-order@8.1.3`, `stylelint-prettier@5.1`)
+
 ## 6.0.1
 
 - Turn off `selector-no-qualifying-type`
